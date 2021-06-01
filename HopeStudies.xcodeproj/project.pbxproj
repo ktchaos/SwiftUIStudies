@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E54735EC48871A6AE996A51 /* Pods_HopeStudies_HopeStudiesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76375BD6A8F5165075EB5BFB /* Pods_HopeStudies_HopeStudiesUITests.framework */; };
+		53A6B69594C7541401582E98 /* Pods_HopeStudiesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B19E0A1C496D1C10495DB06 /* Pods_HopeStudiesTests.framework */; };
+		657E3DE326266B5300ED3AC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657E3DE226266B5300ED3AC7 /* AppDelegate.swift */; };
+		657E3DE526266B5300ED3AC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657E3DE426266B5300ED3AC7 /* SceneDelegate.swift */; };
+		657E3DE726266B5300ED3AC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657E3DE626266B5300ED3AC7 /* ContentView.swift */; };
+		657E3DE926266B5500ED3AC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 657E3DE826266B5500ED3AC7 /* Assets.xcassets */; };
+		657E3DEC26266B5500ED3AC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 657E3DEB26266B5500ED3AC7 /* Preview Assets.xcassets */; };
+		657E3DEF26266B5500ED3AC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 657E3DED26266B5500ED3AC7 /* LaunchScreen.storyboard */; };
+		657E3DFA26266B5500ED3AC7 /* HopeStudiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657E3DF926266B5500ED3AC7 /* HopeStudiesTests.swift */; };
+		657E3E0526266B5500ED3AC7 /* HopeStudiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657E3E0426266B5500ED3AC7 /* HopeStudiesUITests.swift */; };
+		657E3E132626A4B600ED3AC7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 657E3E122626A4B600ED3AC7 /* GoogleService-Info.plist */; };
+		CD68D831E690F9B54B726D97 /* Pods_HopeStudies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3A2BF5ADE511A443A17684 /* Pods_HopeStudies.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		657E3DF626266B5500ED3AC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 657E3DD726266B5300ED3AC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 657E3DDE26266B5300ED3AC7;
+			remoteInfo = HopeStudies;
+		};
+		657E3E0126266B5500ED3AC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 657E3DD726266B5300ED3AC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 657E3DDE26266B5300ED3AC7;
+			remoteInfo = HopeStudies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23420A4AE01A22702257E541 /* Pods-HopeStudiesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HopeStudiesTests.debug.xcconfig"; path = "Target Support Files/Pods-HopeStudiesTests/Pods-HopeStudiesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F6011872A31F2A3DC5DE036 /* Pods-HopeStudies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HopeStudies.debug.xcconfig"; path = "Target Support Files/Pods-HopeStudies/Pods-HopeStudies.debug.xcconfig"; sourceTree = "<group>"; };
+		5B19E0A1C496D1C10495DB06 /* Pods_HopeStudiesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HopeStudiesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		657E3DDF26266B5300ED3AC7 /* HopeStudies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HopeStudies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		657E3DE226266B5300ED3AC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		657E3DE426266B5300ED3AC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		657E3DE626266B5300ED3AC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		657E3DE826266B5500ED3AC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		657E3DEB26266B5500ED3AC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		657E3DEE26266B5500ED3AC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		657E3DF026266B5500ED3AC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		657E3DF526266B5500ED3AC7 /* HopeStudiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HopeStudiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		657E3DF926266B5500ED3AC7 /* HopeStudiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HopeStudiesTests.swift; sourceTree = "<group>"; };
+		657E3DFB26266B5500ED3AC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		657E3E0026266B5500ED3AC7 /* HopeStudiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HopeStudiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		657E3E0426266B5500ED3AC7 /* HopeStudiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HopeStudiesUITests.swift; sourceTree = "<group>"; };
+		657E3E0626266B5500ED3AC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		657E3E122626A4B600ED3AC7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6C3A2BF5ADE511A443A17684 /* Pods_HopeStudies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HopeStudies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76375BD6A8F5165075EB5BFB /* Pods_HopeStudies_HopeStudiesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HopeStudies_HopeStudiesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		823D3B268EABBEA5C2579E8A /* Pods-HopeStudiesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HopeStudiesTests.release.xcconfig"; path = "Target Support Files/Pods-HopeStudiesTests/Pods-HopeStudiesTests.release.xcconfig"; sourceTree = "<group>"; };
+		9A6A545CAE7B846CDB34C405 /* Pods-HopeStudies-HopeStudiesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HopeStudies-HopeStudiesUITests.debug.xcconfig"; path = "Target Support Files/Pods-HopeStudies-HopeStudiesUITests/Pods-HopeStudies-HopeStudiesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B80830BB199F355200BDA0FF /* Pods-HopeStudies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HopeStudies.release.xcconfig"; path = "Target Support Files/Pods-HopeStudies/Pods-HopeStudies.release.xcconfig"; sourceTree = "<group>"; };
+		DCA7F0EDBA2CA5C7802F5AAA /* Pods-HopeStudies-HopeStudiesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HopeStudies-HopeStudiesUITests.release.xcconfig"; path = "Target Support Files/Pods-HopeStudies-HopeStudiesUITests/Pods-HopeStudies-HopeStudiesUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		657E3DDC26266B5300ED3AC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD68D831E690F9B54B726D97 /* Pods_HopeStudies.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657E3DF226266B5500ED3AC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53A6B69594C7541401582E98 /* Pods_HopeStudiesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657E3DFD26266B5500ED3AC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E54735EC48871A6AE996A51 /* Pods_HopeStudies_HopeStudiesUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CABDF4DD8F2D74EA6C48E4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F6011872A31F2A3DC5DE036 /* Pods-HopeStudies.debug.xcconfig */,
+				B80830BB199F355200BDA0FF /* Pods-HopeStudies.release.xcconfig */,
+				9A6A545CAE7B846CDB34C405 /* Pods-HopeStudies-HopeStudiesUITests.debug.xcconfig */,
+				DCA7F0EDBA2CA5C7802F5AAA /* Pods-HopeStudies-HopeStudiesUITests.release.xcconfig */,
+				23420A4AE01A22702257E541 /* Pods-HopeStudiesTests.debug.xcconfig */,
+				823D3B268EABBEA5C2579E8A /* Pods-HopeStudiesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		657E3DD626266B5300ED3AC7 = {
+			isa = PBXGroup;
+			children = (
+				657E3DE126266B5300ED3AC7 /* HopeStudies */,
+				657E3DF826266B5500ED3AC7 /* HopeStudiesTests */,
+				657E3E0326266B5500ED3AC7 /* HopeStudiesUITests */,
+				657E3DE026266B5300ED3AC7 /* Products */,
+				0CABDF4DD8F2D74EA6C48E4D /* Pods */,
+				E20570F47718098A3B0B9644 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		657E3DE026266B5300ED3AC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				657E3DDF26266B5300ED3AC7 /* HopeStudies.app */,
+				657E3DF526266B5500ED3AC7 /* HopeStudiesTests.xctest */,
+				657E3E0026266B5500ED3AC7 /* HopeStudiesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		657E3DE126266B5300ED3AC7 /* HopeStudies */ = {
+			isa = PBXGroup;
+			children = (
+				657E3E122626A4B600ED3AC7 /* GoogleService-Info.plist */,
+				657E3DE226266B5300ED3AC7 /* AppDelegate.swift */,
+				657E3DE426266B5300ED3AC7 /* SceneDelegate.swift */,
+				657E3DE626266B5300ED3AC7 /* ContentView.swift */,
+				657E3DE826266B5500ED3AC7 /* Assets.xcassets */,
+				657E3DED26266B5500ED3AC7 /* LaunchScreen.storyboard */,
+				657E3DF026266B5500ED3AC7 /* Info.plist */,
+				657E3DEA26266B5500ED3AC7 /* Preview Content */,
+			);
+			path = HopeStudies;
+			sourceTree = "<group>";
+		};
+		657E3DEA26266B5500ED3AC7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				657E3DEB26266B5500ED3AC7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		657E3DF826266B5500ED3AC7 /* HopeStudiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				657E3DF926266B5500ED3AC7 /* HopeStudiesTests.swift */,
+				657E3DFB26266B5500ED3AC7 /* Info.plist */,
+			);
+			path = HopeStudiesTests;
+			sourceTree = "<group>";
+		};
+		657E3E0326266B5500ED3AC7 /* HopeStudiesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				657E3E0426266B5500ED3AC7 /* HopeStudiesUITests.swift */,
+				657E3E0626266B5500ED3AC7 /* Info.plist */,
+			);
+			path = HopeStudiesUITests;
+			sourceTree = "<group>";
+		};
+		E20570F47718098A3B0B9644 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C3A2BF5ADE511A443A17684 /* Pods_HopeStudies.framework */,
+				76375BD6A8F5165075EB5BFB /* Pods_HopeStudies_HopeStudiesUITests.framework */,
+				5B19E0A1C496D1C10495DB06 /* Pods_HopeStudiesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		657E3DDE26266B5300ED3AC7 /* HopeStudies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 657E3E0926266B5500ED3AC7 /* Build configuration list for PBXNativeTarget "HopeStudies" */;
+			buildPhases = (
+				C6BC08E7EB55C47F5218CDD0 /* [CP] Check Pods Manifest.lock */,
+				657E3DDB26266B5300ED3AC7 /* Sources */,
+				657E3DDC26266B5300ED3AC7 /* Frameworks */,
+				657E3DDD26266B5300ED3AC7 /* Resources */,
+				C9CC292CC4FD5A2C33C3679C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HopeStudies;
+			productName = HopeStudies;
+			productReference = 657E3DDF26266B5300ED3AC7 /* HopeStudies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		657E3DF426266B5500ED3AC7 /* HopeStudiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 657E3E0C26266B5500ED3AC7 /* Build configuration list for PBXNativeTarget "HopeStudiesTests" */;
+			buildPhases = (
+				23B59E0CEF4FB15A1BD999E8 /* [CP] Check Pods Manifest.lock */,
+				657E3DF126266B5500ED3AC7 /* Sources */,
+				657E3DF226266B5500ED3AC7 /* Frameworks */,
+				657E3DF326266B5500ED3AC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				657E3DF726266B5500ED3AC7 /* PBXTargetDependency */,
+			);
+			name = HopeStudiesTests;
+			productName = HopeStudiesTests;
+			productReference = 657E3DF526266B5500ED3AC7 /* HopeStudiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		657E3DFF26266B5500ED3AC7 /* HopeStudiesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 657E3E0F26266B5500ED3AC7 /* Build configuration list for PBXNativeTarget "HopeStudiesUITests" */;
+			buildPhases = (
+				70F6548F9EA292648A946A68 /* [CP] Check Pods Manifest.lock */,
+				657E3DFC26266B5500ED3AC7 /* Sources */,
+				657E3DFD26266B5500ED3AC7 /* Frameworks */,
+				657E3DFE26266B5500ED3AC7 /* Resources */,
+				348568CAC7BD529435C193C4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				657E3E0226266B5500ED3AC7 /* PBXTargetDependency */,
+			);
+			name = HopeStudiesUITests;
+			productName = HopeStudiesUITests;
+			productReference = 657E3E0026266B5500ED3AC7 /* HopeStudiesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		657E3DD726266B5300ED3AC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Catarina Serrano";
+				TargetAttributes = {
+					657E3DDE26266B5300ED3AC7 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					657E3DF426266B5500ED3AC7 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 657E3DDE26266B5300ED3AC7;
+					};
+					657E3DFF26266B5500ED3AC7 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 657E3DDE26266B5300ED3AC7;
+					};
+				};
+			};
+			buildConfigurationList = 657E3DDA26266B5300ED3AC7 /* Build configuration list for PBXProject "HopeStudies" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 657E3DD626266B5300ED3AC7;
+			productRefGroup = 657E3DE026266B5300ED3AC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				657E3DDE26266B5300ED3AC7 /* HopeStudies */,
+				657E3DF426266B5500ED3AC7 /* HopeStudiesTests */,
+				657E3DFF26266B5500ED3AC7 /* HopeStudiesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		657E3DDD26266B5300ED3AC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657E3DEF26266B5500ED3AC7 /* LaunchScreen.storyboard in Resources */,
+				657E3E132626A4B600ED3AC7 /* GoogleService-Info.plist in Resources */,
+				657E3DEC26266B5500ED3AC7 /* Preview Assets.xcassets in Resources */,
+				657E3DE926266B5500ED3AC7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657E3DF326266B5500ED3AC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657E3DFE26266B5500ED3AC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23B59E0CEF4FB15A1BD999E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HopeStudiesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		348568CAC7BD529435C193C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HopeStudies-HopeStudiesUITests/Pods-HopeStudies-HopeStudiesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HopeStudies-HopeStudiesUITests/Pods-HopeStudies-HopeStudiesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HopeStudies-HopeStudiesUITests/Pods-HopeStudies-HopeStudiesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70F6548F9EA292648A946A68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HopeStudies-HopeStudiesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6BC08E7EB55C47F5218CDD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HopeStudies-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9CC292CC4FD5A2C33C3679C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HopeStudies/Pods-HopeStudies-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HopeStudies/Pods-HopeStudies-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HopeStudies/Pods-HopeStudies-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		657E3DDB26266B5300ED3AC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657E3DE326266B5300ED3AC7 /* AppDelegate.swift in Sources */,
+				657E3DE526266B5300ED3AC7 /* SceneDelegate.swift in Sources */,
+				657E3DE726266B5300ED3AC7 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657E3DF126266B5500ED3AC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657E3DFA26266B5500ED3AC7 /* HopeStudiesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657E3DFC26266B5500ED3AC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657E3E0526266B5500ED3AC7 /* HopeStudiesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		657E3DF726266B5500ED3AC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 657E3DDE26266B5300ED3AC7 /* HopeStudies */;
+			targetProxy = 657E3DF626266B5500ED3AC7 /* PBXContainerItemProxy */;
+		};
+		657E3E0226266B5500ED3AC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 657E3DDE26266B5300ED3AC7 /* HopeStudies */;
+			targetProxy = 657E3E0126266B5500ED3AC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		657E3DED26266B5500ED3AC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				657E3DEE26266B5500ED3AC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		657E3E0726266B5500ED3AC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		657E3E0826266B5500ED3AC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		657E3E0A26266B5500ED3AC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F6011872A31F2A3DC5DE036 /* Pods-HopeStudies.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HopeStudies/Preview Content\"";
+				DEVELOPMENT_TEAM = 3PTX2S8KDQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HopeStudies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fuze.HopeStudies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		657E3E0B26266B5500ED3AC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B80830BB199F355200BDA0FF /* Pods-HopeStudies.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HopeStudies/Preview Content\"";
+				DEVELOPMENT_TEAM = 3PTX2S8KDQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HopeStudies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fuze.HopeStudies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		657E3E0D26266B5500ED3AC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23420A4AE01A22702257E541 /* Pods-HopeStudiesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3PTX2S8KDQ;
+				INFOPLIST_FILE = HopeStudiesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fuze.HopeStudiesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HopeStudies.app/HopeStudies";
+			};
+			name = Debug;
+		};
+		657E3E0E26266B5500ED3AC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 823D3B268EABBEA5C2579E8A /* Pods-HopeStudiesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3PTX2S8KDQ;
+				INFOPLIST_FILE = HopeStudiesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fuze.HopeStudiesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HopeStudies.app/HopeStudies";
+			};
+			name = Release;
+		};
+		657E3E1026266B5500ED3AC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A6A545CAE7B846CDB34C405 /* Pods-HopeStudies-HopeStudiesUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3PTX2S8KDQ;
+				INFOPLIST_FILE = HopeStudiesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fuze.HopeStudiesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HopeStudies;
+			};
+			name = Debug;
+		};
+		657E3E1126266B5500ED3AC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCA7F0EDBA2CA5C7802F5AAA /* Pods-HopeStudies-HopeStudiesUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3PTX2S8KDQ;
+				INFOPLIST_FILE = HopeStudiesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fuze.HopeStudiesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HopeStudies;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		657E3DDA26266B5300ED3AC7 /* Build configuration list for PBXProject "HopeStudies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657E3E0726266B5500ED3AC7 /* Debug */,
+				657E3E0826266B5500ED3AC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		657E3E0926266B5500ED3AC7 /* Build configuration list for PBXNativeTarget "HopeStudies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657E3E0A26266B5500ED3AC7 /* Debug */,
+				657E3E0B26266B5500ED3AC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		657E3E0C26266B5500ED3AC7 /* Build configuration list for PBXNativeTarget "HopeStudiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657E3E0D26266B5500ED3AC7 /* Debug */,
+				657E3E0E26266B5500ED3AC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		657E3E0F26266B5500ED3AC7 /* Build configuration list for PBXNativeTarget "HopeStudiesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657E3E1026266B5500ED3AC7 /* Debug */,
+				657E3E1126266B5500ED3AC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 657E3DD726266B5300ED3AC7 /* Project object */;
+}
